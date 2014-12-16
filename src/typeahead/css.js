@@ -31,9 +31,10 @@ var css = (function() {
       verticalAlign: 'top'
     },
     dropdown: {
-      position: 'absolute',
-      top: '100%',
+      position: 'relative',
+      top: 'auto',
       left: '0',
+      bottom: '0',
       zIndex: '100',
       display: 'none'
     },
