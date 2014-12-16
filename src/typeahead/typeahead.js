@@ -355,7 +355,7 @@ var Typeahead = (function() {
     .wrap($wrapper)
     .parent()
     .prepend(withHint ? $hint : null)
-    .append($dropdown);
+    .prepend($dropdown);
   }
 
   function getBackgroundStyles($el) {
